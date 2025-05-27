@@ -14,4 +14,6 @@ while True:
     
     pygame.draw.circle(game_window, (0, 255, 255), (250, 200), 20,10)
     
+    pygame.draw.ellipse(game_window, (255, 255, 0), (300, 100, 50, 20))
+    
     pygame.display.update()
