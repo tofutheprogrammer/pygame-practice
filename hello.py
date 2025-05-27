@@ -12,4 +12,6 @@ while True:
     
     pygame.draw.rect(game_window, (0, 0, 255), (200, 100, 50, 50))
     
+    pygame.draw.circle(game_window, (0, 255, 255), (250, 200), 20,10)
+    
     pygame.display.update()
